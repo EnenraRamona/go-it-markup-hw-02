@@ -8,6 +8,7 @@
 body{
     background-color: white ;
     font-family: 'Roboto', sans-serif;
+    color: var(--description-text-color);
 }
 .list{
     list-style: none;
@@ -17,6 +18,11 @@ body{
 .logo .accent {
     color: var(--accent-color);
 }
+
+.logo .primtext {
+    color: var(--description-text-color)
+}
+
 .site-navigation .link {
     color: var(--primary-text-color);
 }
@@ -26,13 +32,15 @@ body{
 }
 
 .contact-navigation .link {
-    color:var(--primary-text-color);
+    color:var(--description-text-color);
 }
 .contact-navigation .link:focus,
 .contact-navigation .link:hover {
     color: var(--accent-color);
 }
-
+.contact-navigation .tel{
+    color: var(--description-text-color);
+}
 /* Section */
 
 .section-title{
@@ -77,3 +85,4 @@ color: #ffffff;
 .team-role {
     color: var(--description-text-color)
 }
+
