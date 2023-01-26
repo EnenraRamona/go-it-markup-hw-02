@@ -1,0 +1,79 @@
+:root {
+    --primary-text-color :#2E2F42;
+    --accent-color: #404BBF;
+    --btn-text-color: #ffffff;
+    --description-text-color: #434455;
+}
+
+body{
+    background-color: white ;
+    font-family: 'Roboto', sans-serif;
+}
+.list{
+    list-style: none;
+}
+/* Site Nav */
+
+.logo .accent {
+    color: var(--accent-color);
+}
+.site-navigation .link {
+    color: var(--primary-text-color);
+}
+.site-navigation .link:focus,
+.site-navigation .link:hover {
+    color: var(--accent-color);
+}
+
+.contact-navigation .link {
+    color:var(--primary-text-color);
+}
+.contact-navigation .link:focus,
+.contact-navigation .link:hover {
+    color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title{
+    color: var(--primary-text-color);
+}
+
+
+/* Hero */
+.hero-section {
+    background-color: #2E2F42;
+}
+.hero-title {
+color: #ffffff;
+}
+.hero-btn {
+    color: var(--btn-text-color);
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.hero-btn:focus,
+.hero-btn:hover{
+    color: var(--btn-text-color);
+    background-color: var(--accent-color);
+}
+
+
+/* Features */
+
+.feature-list .title {
+    color: var(--primary-text-color);
+}
+
+.feature-description{
+    color: var(--description-text-color);
+}
+
+/* Our Team */
+
+.team-title{
+    color: var(--primary-text-color);
+}
+.team-role {
+    color: var(--description-text-color)
+}
