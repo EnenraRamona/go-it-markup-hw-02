@@ -9,6 +9,9 @@
   --btn-active-bgc:#404BBF;
   --btn-hero-noneactive-bgc: #4D5AE5;
   --logo-text-color-fp: #f4f4fd;
+  --footer-text-color: #E7E9FC;
+  --ourteam-background-color: #F4F4FD;
+
 
 }
 
@@ -42,6 +45,7 @@ body {
 }
 
 .primtext {
+  font-family: 'Raleway'sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -50,7 +54,6 @@ body {
 }
 
 .site-navigation .link {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -64,9 +67,8 @@ body {
 
 .contact-navigation .link,
 .tel {
-  font-family: 'Roboto';
+
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
   color: var(--description-text-color);
@@ -93,7 +95,6 @@ body {
 .hero-btn {
   color: var(--btn-text-color);
   background-color: var(--btn-hero-noneactive-bgc);
-  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -153,10 +154,8 @@ cursor: pointer;
 
 
 .feature-list .title {
-  color: var(--primary-text-color);
-font-family: 'Roboto';
+color: var(--primary-text-color);
 font-style: normal;
-font-weight: 700;
 font-size: 20px;
 line-height: 1.2em;
 
@@ -165,9 +164,7 @@ line-height: 1.2em;
 
 .feature-description {
   color: var(--description-text-color);
-  font-family: inherit;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -175,13 +172,17 @@ line-height: 1.2em;
 
 /* Our Team */
 
+
+.section-team{
+  background-color: var(--ourteam-background-color);
+}
+
 .team-title {
   color: var(--primary-text-color);
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 1.2em;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2em;
+
 }
 .team-role {
   color: var(--description-text-color);
@@ -193,9 +194,35 @@ line-height: 1.2em;
     background-color:  var(--background-color-footer)
   }
 .footerprime{
+  font-family: 'Raleway' sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3em;
   color: var(--logo-text-color-fp);
+}
+
+.footer-description {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: var(--footer-text-color);
+}
+
+
+
+/* Examples */
+.example-title {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2em;
+color: var(--primary-text-color);
+}
+
+.example-type {
+font-style: normal;
+font-size: 16px;
+line-height: 1.5em;
+color: var(--description-text-color);
 }
