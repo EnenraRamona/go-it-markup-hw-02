@@ -11,6 +11,8 @@
   --logo-text-color-fp: #f4f4fd;
   --footer-text-color: #E7E9FC;
   --ourteam-background-color: #F4F4FD;
+  --hero-title-color: #ffffff;
+
 
 
 }
@@ -45,7 +47,7 @@ body {
 }
 
 .primtext {
-  font-family: 'Raleway'sans-serif;
+  font-family: 'Raleway',sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -54,6 +56,7 @@ body {
 }
 
 .site-navigation .link {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -67,7 +70,7 @@ body {
 
 .contact-navigation .link,
 .tel {
-
+  font-family: 'Roboto' , sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5em;
@@ -81,6 +84,10 @@ body {
 /* Section */
 
 .section-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11em;
   color: var(--primary-text-color);
 }
 
@@ -89,27 +96,26 @@ body {
   background-color: #2e2f42;
 }
 .hero-title {
-  color: #ffffff;
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.0em;
+  color: var(--hero-title-color);
 }
 
 .hero-btn {
-  color: var(--btn-text-color);
-  background-color: var(--btn-hero-noneactive-bgc);
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   cursor: pointer;
+  color: var(--btn-text-color);
+  background-color: var(--btn-hero-noneactive-bgc);
 }
 
 
 .hero-btn:focus,
 .hero-btn:hover {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5em;
   color: var(--btn-text-color);
   background-color: var(--btn-active-bgc);
 }
@@ -118,39 +124,24 @@ body {
 
 
 .portfolio-btn  {
-  color: var(--accent-color);
-  background-color: var(--btn-nonactive-bgc);
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
-cursor: pointer;
+  cursor: pointer;
+  color: var(--accent-color);
+  background-color: var(--btn-nonactive-bgc);
 }
+
 .portfolio-btn:focus,
 .portfolio-btn:hover {
-    font-family: inherit;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5em;
   color: var(--btn-text-color);
   background-color: var(--btn-active-bgc)
 }
 
 /* Features */
-.section-title-features{
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
-}
+
 
 
 .feature-list .title {
@@ -194,7 +185,7 @@ line-height: 1.2em;
     background-color:  var(--background-color-footer)
   }
 .footerprime{
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -203,6 +194,7 @@ line-height: 1.2em;
 }
 
 .footer-description {
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5em;
@@ -213,6 +205,7 @@ line-height: 1.2em;
 
 /* Examples */
 .example-title {
+font-family: 'Roboto' sans-serif; 
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -221,8 +214,29 @@ color: var(--primary-text-color);
 }
 
 .example-type {
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-size: 16px;
 line-height: 1.5em;
 color: var(--description-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
 }
